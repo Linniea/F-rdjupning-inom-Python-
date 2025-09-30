@@ -1,0 +1,1084 @@
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Fel i ETL-processen
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Traceback (most recent call last):
+  File "/Users/linnieatruong/py_etl_simple/run_once.py", line 4, in <module>
+    run_etl()
+  File "/Users/linnieatruong/py_etl_simple/etl.py", line 9, in run_etl
+    df = pd.read_csv(csv_path)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/Users/linnieatruong/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'data/input.csv'
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen
+Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+Upsertrade 3 rader till databasen

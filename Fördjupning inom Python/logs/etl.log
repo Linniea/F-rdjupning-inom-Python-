@@ -1,0 +1,12 @@
+2025-09-28 21:47:31,849 INFO Läste 3 rader från data/input.csv
+2025-09-28 21:47:31,861 INFO Upsertrade 3 rader till databasen
+2025-09-28 21:59:16,825 INFO Läste 3 rader från data/input.csv
+2025-09-28 21:59:16,828 INFO Upsertrade 3 rader till databasen
+2025-09-28 22:15:09,086 INFO Läste 2 rader från /private/var/folders/j_/cdgxf7j12zq7lc35lct4s7jm0000gn/T/pytest-of-linnieatruong/pytest-0/test_run_etl_creates_rows0/input.csv
+2025-09-28 22:15:09,089 INFO Upsertrade 2 rader till databasen
+2025-09-29 15:10:17,459 INFO Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+2025-09-29 15:10:17,461 INFO Upsertrade 3 rader till databasen
+2025-09-29 15:27:15,554 INFO Läste 3 rader från /Users/linnieatruong/py_etl_simple/data/input.csv
+2025-09-29 15:27:15,556 INFO Upsertrade 3 rader till databasen
+2025-09-29 18:27:11,194 INFO Läste 2 rader från /private/var/folders/j_/cdgxf7j12zq7lc35lct4s7jm0000gn/T/pytest-of-linnieatruong/pytest-1/test_run_etl_creates_rows0/input.csv
+2025-09-29 18:27:11,208 INFO Upsertrade 2 rader till databasen
